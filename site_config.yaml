@@ -1,0 +1,22 @@
+# 网站配置模板：复制为 site_config.yaml 再填写（site_config.yaml 不要上传到公开仓库）
+
+title: 大洲日记
+tagline: 每天一次，读懂各大洲的外交外事
+
+# 网站发布后的完整地址，必须以 / 结尾。例如 GitHub Pages：https://你的用户名.github.io/dazhou-diary/
+# 用来生成：RSS 订阅文件里的链接、分享卡片和 PDF 里的二维码、邮件里的链接。没发布之前可以先留空。
+base_url: "https://Aero1680.github.io/dazhou-diary-site/"
+
+# 订阅、退订、纠错反馈的邮箱（会显示在网站上，请用专门的邮箱）
+contact_email: "gxy13931081680@outlook.com"
+
+# 如果用第三方表单收集订阅（如腾讯问卷、金数据），把表单网址填在这里；留空则使用"发邮件订阅"
+subscribe_form_url: ""
+
+publisher: 外交学院 AI Agent 创新大赛参赛作品
+
+# 发布（publish.py 用）：本地用来推送的"发布仓库"目录，里面只放生成的网站，不放源码和密钥
+deploy:
+  git_dir: "D:/大洲日记/dazhou-diary-site"
+  branch: main
+  cname: ""        # 自定义域名（可选）
