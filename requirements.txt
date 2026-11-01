@@ -1,9 +1,0 @@
-httpx>=0.27
-feedparser>=6.0
-PyYAML>=6.0
-beautifulsoup4>=4.12
-rich>=13.0
-Pillow>=10.0
-qrcode>=7.4
-# 可选：生成 PDF 时优先使用（没有的话会自动使用系统自带的 Edge/Chrome）
-# playwright>=1.40

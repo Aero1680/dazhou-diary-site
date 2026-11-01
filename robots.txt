@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Aero1680.github.io/dazhou-diary-site/feed.xml
